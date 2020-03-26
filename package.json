@@ -1,0 +1,26 @@
+{
+  "name": "httprequestcwbopendatademo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getUVData.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiatsekuo/HTTPRequestCWBOpenDataDemo2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiatsekuo/HTTPRequestCWBOpenDataDemo2/issues"
+  },
+  "homepage": "https://github.com/chiatsekuo/HTTPRequestCWBOpenDataDemo2#readme"
+}
