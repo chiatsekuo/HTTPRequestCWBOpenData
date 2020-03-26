@@ -5,7 +5,7 @@ const moment = require('moment');
 
 var options = {
   'method': 'GET',
-  'url': 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-069?Authorization=CWB-10CD4C28-9EE2-4EBC-8437-D7EB638E3631',
+  'url': 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-069?Authorization=' + process.env.WEATHER_AUTHORIZATION,
   'headers': {
   },
   'json':true
